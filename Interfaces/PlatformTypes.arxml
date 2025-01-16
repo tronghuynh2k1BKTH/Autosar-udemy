@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd">
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd">
 	<AR-PACKAGES>
 		<AR-PACKAGE>
 			<SHORT-NAME>AUTOSAR_PlatformTypes</SHORT-NAME>
@@ -16,8 +18,10 @@
 							<SW-DATA-DEF-PROPS>
 								<SW-DATA-DEF-PROPS-VARIANTS>
 									<SW-DATA-DEF-PROPS-CONDITIONAL>
-										<BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_PlatformTypes/SwBaseTypes/boolean</BASE-TYPE-REF>
-										<DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_boolean</DATA-CONSTR-REF>
+										<BASE-TYPE-REF DEST="SW-BASE-TYPE">
+											/AUTOSAR_PlatformTypes/SwBaseTypes/boolean</BASE-TYPE-REF>
+										<DATA-CONSTR-REF DEST="DATA-CONSTR">
+											/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_boolean</DATA-CONSTR-REF>
 									</SW-DATA-DEF-PROPS-CONDITIONAL>
 								</SW-DATA-DEF-PROPS-VARIANTS>
 							</SW-DATA-DEF-PROPS>
@@ -28,7 +32,8 @@
 							<SW-DATA-DEF-PROPS>
 								<SW-DATA-DEF-PROPS-VARIANTS>
 									<SW-DATA-DEF-PROPS-CONDITIONAL>
-										<BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_PlatformTypes/SwBaseTypes/float32</BASE-TYPE-REF>
+										<BASE-TYPE-REF DEST="SW-BASE-TYPE">
+											/AUTOSAR_PlatformTypes/SwBaseTypes/float32</BASE-TYPE-REF>
 									</SW-DATA-DEF-PROPS-CONDITIONAL>
 								</SW-DATA-DEF-PROPS-VARIANTS>
 							</SW-DATA-DEF-PROPS>
@@ -39,7 +44,8 @@
 							<SW-DATA-DEF-PROPS>
 								<SW-DATA-DEF-PROPS-VARIANTS>
 									<SW-DATA-DEF-PROPS-CONDITIONAL>
-										<BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_PlatformTypes/SwBaseTypes/float64</BASE-TYPE-REF>
+										<BASE-TYPE-REF DEST="SW-BASE-TYPE">
+											/AUTOSAR_PlatformTypes/SwBaseTypes/float64</BASE-TYPE-REF>
 									</SW-DATA-DEF-PROPS-CONDITIONAL>
 								</SW-DATA-DEF-PROPS-VARIANTS>
 							</SW-DATA-DEF-PROPS>
@@ -50,8 +56,10 @@
 							<SW-DATA-DEF-PROPS>
 								<SW-DATA-DEF-PROPS-VARIANTS>
 									<SW-DATA-DEF-PROPS-CONDITIONAL>
-										<BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_PlatformTypes/SwBaseTypes/sint16</BASE-TYPE-REF>
-										<DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_sint16</DATA-CONSTR-REF>
+										<BASE-TYPE-REF DEST="SW-BASE-TYPE">
+											/AUTOSAR_PlatformTypes/SwBaseTypes/sint16</BASE-TYPE-REF>
+										<DATA-CONSTR-REF DEST="DATA-CONSTR">
+											/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_sint16</DATA-CONSTR-REF>
 									</SW-DATA-DEF-PROPS-CONDITIONAL>
 								</SW-DATA-DEF-PROPS-VARIANTS>
 							</SW-DATA-DEF-PROPS>
@@ -62,8 +70,10 @@
 							<SW-DATA-DEF-PROPS>
 								<SW-DATA-DEF-PROPS-VARIANTS>
 									<SW-DATA-DEF-PROPS-CONDITIONAL>
-										<BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_PlatformTypes/SwBaseTypes/sint32</BASE-TYPE-REF>
-										<DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_sint32</DATA-CONSTR-REF>
+										<BASE-TYPE-REF DEST="SW-BASE-TYPE">
+											/AUTOSAR_PlatformTypes/SwBaseTypes/sint32</BASE-TYPE-REF>
+										<DATA-CONSTR-REF DEST="DATA-CONSTR">
+											/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_sint32</DATA-CONSTR-REF>
 									</SW-DATA-DEF-PROPS-CONDITIONAL>
 								</SW-DATA-DEF-PROPS-VARIANTS>
 							</SW-DATA-DEF-PROPS>
@@ -74,8 +84,10 @@
 							<SW-DATA-DEF-PROPS>
 								<SW-DATA-DEF-PROPS-VARIANTS>
 									<SW-DATA-DEF-PROPS-CONDITIONAL>
-										<BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_PlatformTypes/SwBaseTypes/sint8</BASE-TYPE-REF>
-										<DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_sint8</DATA-CONSTR-REF>
+										<BASE-TYPE-REF DEST="SW-BASE-TYPE">
+											/AUTOSAR_PlatformTypes/SwBaseTypes/sint8</BASE-TYPE-REF>
+										<DATA-CONSTR-REF DEST="DATA-CONSTR">
+											/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_sint8</DATA-CONSTR-REF>
 									</SW-DATA-DEF-PROPS-CONDITIONAL>
 								</SW-DATA-DEF-PROPS-VARIANTS>
 							</SW-DATA-DEF-PROPS>
@@ -86,8 +98,10 @@
 							<SW-DATA-DEF-PROPS>
 								<SW-DATA-DEF-PROPS-VARIANTS>
 									<SW-DATA-DEF-PROPS-CONDITIONAL>
-										<BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_PlatformTypes/SwBaseTypes/uint16</BASE-TYPE-REF>
-										<DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_uint16</DATA-CONSTR-REF>
+										<BASE-TYPE-REF DEST="SW-BASE-TYPE">
+											/AUTOSAR_PlatformTypes/SwBaseTypes/uint16</BASE-TYPE-REF>
+										<DATA-CONSTR-REF DEST="DATA-CONSTR">
+											/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_uint16</DATA-CONSTR-REF>
 									</SW-DATA-DEF-PROPS-CONDITIONAL>
 								</SW-DATA-DEF-PROPS-VARIANTS>
 							</SW-DATA-DEF-PROPS>
@@ -98,8 +112,10 @@
 							<SW-DATA-DEF-PROPS>
 								<SW-DATA-DEF-PROPS-VARIANTS>
 									<SW-DATA-DEF-PROPS-CONDITIONAL>
-										<BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_PlatformTypes/SwBaseTypes/uint32</BASE-TYPE-REF>
-										<DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_uint32</DATA-CONSTR-REF>
+										<BASE-TYPE-REF DEST="SW-BASE-TYPE">
+											/AUTOSAR_PlatformTypes/SwBaseTypes/uint32</BASE-TYPE-REF>
+										<DATA-CONSTR-REF DEST="DATA-CONSTR">
+											/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_uint32</DATA-CONSTR-REF>
 									</SW-DATA-DEF-PROPS-CONDITIONAL>
 								</SW-DATA-DEF-PROPS-VARIANTS>
 							</SW-DATA-DEF-PROPS>
@@ -110,8 +126,10 @@
 							<SW-DATA-DEF-PROPS>
 								<SW-DATA-DEF-PROPS-VARIANTS>
 									<SW-DATA-DEF-PROPS-CONDITIONAL>
-										<BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_PlatformTypes/SwBaseTypes/uint8</BASE-TYPE-REF>
-										<DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_uint8</DATA-CONSTR-REF>
+										<BASE-TYPE-REF DEST="SW-BASE-TYPE">
+											/AUTOSAR_PlatformTypes/SwBaseTypes/uint8</BASE-TYPE-REF>
+										<DATA-CONSTR-REF DEST="DATA-CONSTR">
+											/AUTOSAR_PlatformTypes/DataConstraints/DataConstr_uint8</DATA-CONSTR-REF>
 									</SW-DATA-DEF-PROPS-CONDITIONAL>
 								</SW-DATA-DEF-PROPS-VARIANTS>
 							</SW-DATA-DEF-PROPS>
